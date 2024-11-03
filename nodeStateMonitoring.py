@@ -16,7 +16,7 @@ THROUGHPUT_THRESHOLD = 100  # transactions per second
 
 # Function to simulate latency measurement (replace with actual latency checks in real environment)
 def measure_latency():
-    return random.uniform(50, 200)  # Simulate latency in milliseconds
+    return random.uniform(50, 200)
 
 # Function to measure uptime as a ratio of system uptime to elapsed time since start
 def measure_uptime():
